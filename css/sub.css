@@ -8,6 +8,7 @@
 
 .keyvisual { 
   position: relative;  height: 110px; background: #EEEEEE;
+  overflow: hidden;
 }
 .keyvisual .title { 
   position: absolute; bottom: 30px; left: 0; width: 100%; text-align: center; z-index: 100 ; }
@@ -38,14 +39,13 @@
 }
 
 /* content_wrap */
-.content_wrap { }
 .sub_content { margin-top: 40px;  }
 
 .con_title { 
   position: relative;
   margin-bottom: 15px; 
 }
-.con_title .title {  }
+
 .con_title .title strong { display: block; font-size: 34px; font-weight: 500; }
 .con_title .title span { display: block; color:var(--gray2Color); font-weight: 300; line-height: 1.4; padding: 10px 0 0;}
 
@@ -59,9 +59,7 @@
 
 .find_btn_wrap { padding: 50px 0; text-align: center;}
 
-.map_wrap { border:3px solid red; 
-  margin-top: 50px;
-}
+.map_wrap { margin-top: 50px; }
 
 
 
